@@ -16,8 +16,8 @@ To run this project, you will need the following:
 
 1. Clone the repository to your local machine.
 
-```bash
-git clone https://github.com/ericmaniraguha/spring_security_login_system.git
+```bash git clone https://github.com/ericmaniraguha/spring_security_login_system.git ```
+
 
 ## Navigate to the project directory.
 
