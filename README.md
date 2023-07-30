@@ -1,5 +1,3 @@
-# spring_security_login_system
-
 # Spring Security 6 - Login System with Spring Data JPA and JWTs
 
 This repository contains a simple implementation of a login system using Spring Security 6, Spring Data JPA, and JWTs. It is up-to-date as of 2023 and aims to demonstrate the integration of these technologies to secure a web application.
@@ -16,8 +14,8 @@ To run this project, you will need the following:
 
 1. Clone the repository to your local machine.
 
-```bash
-git clone https://github.com/ericmaniraguha/spring_security_login_system.git
+```bash git clone https://github.com/ericmaniraguha/spring_security_login_system.git ```
+
 
 ## Navigate to the project directory.
 
