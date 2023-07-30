@@ -27,9 +27,9 @@ public class UserService implements UserDetailsService {
         // Print a message to indicate the start of user details service
         System.out.println("In the user details service");
 
-        // Check if the username is "Ethan," if not, throw UsernameNotFoundException
-        if (!username.equals("Ethan"))
-            throw new UsernameNotFoundException("Not Ethan");
+        // Check if the username is "Eric," if not, throw UsernameNotFoundException
+        if (!username.equals("Eric"))
+            throw new UsernameNotFoundException("Not Eric");
 
         // Create a Set to store user roles
         Set<Role> roles = new HashSet<>();
@@ -38,6 +38,6 @@ public class UserService implements UserDetailsService {
 
         // Return a new ApplicationUser with userId 1, username "Ethan",
         // encoded password, and the roles Set - hash my password.
-        return new ApplicationUser(1, "Ethan", encoder.encode("password"), roles);
+        return new ApplicationUser(1, "Eric", encoder.encode("password"), roles);
     }
 }
