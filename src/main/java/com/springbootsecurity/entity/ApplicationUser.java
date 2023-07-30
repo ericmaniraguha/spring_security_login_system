@@ -34,6 +34,7 @@ public class ApplicationUser implements UserDetails {
 	private Integer userId;
 
 	// Define fields to store username and password for the user
+	@Column(unique =true)
 	private String username;
 	private String password;
 
